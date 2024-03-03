@@ -64,6 +64,27 @@ EduNest is an innovative online learning platform designed to revolutionize the 
 
 Contributions are welcome! If you'd like to contribute to EduNest, please fork the repository and submit a pull request.
 
+## Screenshots
+
+<img src="img/scr1.png">
+<br/>
+<img src="img/scr2.png">
+<br/>
+<img src="img/scr3.png">
+<br/>
+<img src="img/scr4.png">
+<br/>
+<img src="img/scr5.png">
+<br/>
+<img src="img/scr6.png">
+<br/>
+<img src="img/scr7.png">
+<br/>
+<img src="img/scr8.png">
+<br/>
+<img src="img/scr9.png">
+<br/>
+
 ## License
 
 This project is licensed under the MIT License.
