@@ -1,0 +1,119 @@
+/* Apply background image to the body */
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("/images/edu1.jpg");
+	/* Replace 'your-background-image.jpg' with the path to your background image */
+	background-size: cover;
+	background-position: center;
+	font-family: Candara, sans-serif; /* Example font-family */
+	color: #d5eeff; /* Example text color */
+}
+
+#header {
+	display: flex; /* Use flexbox */
+	align-items: center; /* Align items vertically in the center */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #007cb9;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+#header h1 {
+	margin: 0;
+	font-size: 24px;
+	margin-left: 10px; /* Add margin to separate text from image */
+}
+
+img {
+	height: 70px; /* Adjust height as needed */
+	margin-right: 10px; /* Add margin to separate image from text */
+}
+
+/* Style the container */
+#container {
+	margin-top: 230px;
+	/* Adjust this value as needed to create space below the fixed header */
+	margin-left: 20px;
+	/* Adjust this value as needed to align the container to the left */
+	width: 50%;
+}
+
+#reg-container{
+	margin-top: 170px;
+	/* Adjust this value as needed to create space below the fixed header */
+	margin-left: 20px;
+	/* Adjust this value as needed to align the container to the left */
+	width: 50%;
+}
+
+#main-content {
+	padding: 20px;
+	background-color: #007cb9;
+	/* Semi-transparent background color for better readability */
+	border-radius: 10px; /* Add rounded corners */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	/* Add a subtle shadow for depth */
+}
+
+.p1 {
+	font-size: 50px;
+	margin: 0;
+}
+
+.p2 {
+	font-size: 50px;
+	margin: 0;
+	font-weight: bold;
+}
+
+.form-text {
+	color: #d5eeff;
+}
+
+.tabs {
+	margin-top: 20px;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #00204a; /* Example button color */
+	color: white;
+	text-decoration: none;
+	border-radius: 70px;
+}
+
+.button:hover {
+	background-color: #272343; /* Darker color on hover */
+}
+
+.btn-primary {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #00204a; /* Example button color */
+	color: white;
+	text-decoration: none;
+	border-radius: 70px;
+}
+
+.btn-primary:hover {
+	background-color: #272343;
+}
+
+.logout{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #00204a; /* Example button color */
+	color: white;
+	text-decoration: none;
+	border-radius: 70px;
+	margin-left: 1200px;
+}
+
+.logout:hover{
+	background-color: #272343;
+}

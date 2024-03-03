@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>EduNest : Home</title>
+    <link rel="stylesheet" th:href="@{/css/styles.css}" type="text/css">
+</head>
+<body>
+    <div id="header">
+    	<img src="/images/edulogo.jpg">
+        <h1>EduNest</h1>
+    </div>
+    <div id="container">
+        <div id="main-content">
+            <p class="p1" th:text="'Online'"></p>
+            <p class="p2" th:text="'Learning'"></p>
+            <p th:text="'Engage your Knowledge in our specially curated courses'"></p>
+            <div class="tabs">
+                <a th:href="@{/login}" class="button">Login</a>
+                <a th:href="@{/register}" class="button">Register</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
